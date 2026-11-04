@@ -1,0 +1,39 @@
+body {
+background: #151515;
+color: white;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 30px;
+}
+.container {
+max-width: 650px;
+margin: auto;
+}
+h1 {
+text-align: center;
+}
+.envio {
+display: flex;
+gap: 10px;
+}
+input {
+flex: 1;
+padding: 12px;
+border: none;
+border-radius: 6px;
+}
+button {
+padding: 12px 20px;
+background: #2878ff;
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+.mensagem {
+background: #4d4646;
+padding: 15px;
+margin-top: 10px;
+border-radius: 6px;
+overflow-wrap: anywhere;
+}
